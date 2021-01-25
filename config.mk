@@ -21,3 +21,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     vendor/miuicamera/sepolicy/private
+
+PRODUCT_PACKAGES += \
+    GinkgoMiuiCamera
